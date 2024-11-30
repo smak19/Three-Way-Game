@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ThreeWay</string>
+    <string name="pick_mark">PICK PLAYER 1\'S MARK</string>
+    <string name="remember">REMEMBER: X GOES FIRST</string>
+    <string name="single_player_button_txt">SINGLE PLAYER( vs BOT)</string>
+    <string name="duo_player_button_txt">DUO PLAYER</string>
+    <string name="turn">TURN</string>
+    <string name="x_score">\'X\'s SCORE</string>
+    <string name="o_score">\'O\'s SCORE</string>
+    <string name="tie_score">TIES</string>
+    <string name="you_win">YOU WIN!</string>
+    <string name="you_lose">YOU LOSE!</string>
+    <string name="x_win">\'X\' is WIN!</string>
+    <string name="o_win">\'O\' is WIN!</string>
+
+    <string name="score">SCORE:</string>
+    <string name="new_string">NEW GAME</string>
+    <string name="number">0</string>
+
+</resources>

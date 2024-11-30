@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ThirdActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        ><include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        app:titleTextColor="@color/black"
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp"
+            >
+
+            <TextView
+                android:id="@+id/textScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/score"
+                android:textSize="30sp"
+                android:layout_marginStart="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/number"
+                android:textSize="30sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+
+        </LinearLayout>
+
+
+        <view
+            android:id="@+id/gameView"
+            class="com.example.threeway.GameView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@android:color/white"
+            app:layout_constraintHorizontal_weight="1" />
+
+
+        <Button
+            android:id="@+id/buttonNew"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:onClick="onNew"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="25dp"
+            android:text="@string/new_string"
+            android:background="@drawable/border"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
+
